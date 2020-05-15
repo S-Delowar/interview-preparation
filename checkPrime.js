@@ -10,8 +10,6 @@ function isPrime(n) {
     }
     return true;
 }
-
 //test
-console.log(isPrime(5))
-console.log(isPrime(79))
-console.log(isPrime(794))
+console.log(isPrime(79))  //true
+console.log(isPrime(794))  //false

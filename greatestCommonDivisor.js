@@ -11,12 +11,9 @@ function greatestCommonDivisor(a, b) {
         }
         divisor++;
     }
-
     return greatestCommonDivisor;
 }
-
-//test
-console.log(greatestCommonDivisor(10,50));  //10
+console.log(greatestCommonDivisor(10,15));  //5
 console.log(greatestCommonDivisor(101,503));  //1
 
 console.log(10 % 15)

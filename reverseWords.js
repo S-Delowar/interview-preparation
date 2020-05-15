@@ -6,3 +6,4 @@ function reverseWords(word) {
 //test -
 const sentence = "I am from    Bangladesh";
 console.log(reverseWords(sentence))
+//Bangladesh    from am I
