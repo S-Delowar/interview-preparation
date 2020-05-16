@@ -1,10 +1,6 @@
-function Rectangle(a, b) {
-    const area = a * b;
-    const perimeter = 2 * (a + b);
-    console.log(a);
-    console.log(b);
-    console.log(perimeter)
-    console.log(area);
-}
-
-Rectangle(2,4);
+var Employee = {
+    company: 'xyz'
+  }
+  var emp1 = Object.create(Employee);
+  delete emp1.__proto__.company
+  console.log(emp1.company);
